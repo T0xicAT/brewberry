@@ -211,7 +211,7 @@ section{
     text-align: center;
 }
 
-.home{
+/* .home{
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -237,6 +237,51 @@ section{
     line-height: 1.8;
     padding: 1rem 0;
     color: #eee;
+} */
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/bg.jpg) no-repeat; 
+    background-size: cover;
+    background-position: center;
+    /* color: #151515; Setting default text color */
+}
+
+.home .content {
+    max-width: 45rem;
+    text-align: center;
+}
+
+.home .content h3 {
+    font-size: 4rem; /* Increased font size */
+    text-transform: uppercase;
+    /* color: #0e0e0e; */
+    color: #4A2E1B;
+    margin-bottom: 1.5rem;
+}
+
+.home .content p {
+    font-size: 1.3rem; /* Increased font size */
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 0 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #FFA500; /* Changed button color to orange */
+    color: #fff;
+    text-decoration: none;
+    padding: 1.2rem 2.5rem; /* Adjusted padding for better button size */
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #FF8C00; /* Darker orange on hover */
 }
 
 
