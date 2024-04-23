@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://cdn.pixabay.com/photo/2017/10/27/15/12/geeks-2894621_640.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
+    border-radius: 8px;
+    border: 1px solid #ccc; /* White border */
+    padding: 20px;
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    color: #fff; /* White text color */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff; /* White text color */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 16px); /* Adjusting for padding and border */
+    padding: 8px;
+    border: 1px solid #fff; /* White border */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff; /* White background */
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 15px;
+    text-align: center;
+    color: #fff; /* White text color */
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
